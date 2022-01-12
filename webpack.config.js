@@ -28,3 +28,6 @@ module.exports = {
   ]
   }
 };
+
+// style-loader adds the style tag to the html doc in the browser
+// css loader is the npm module that would help webpack to collect CSS from all the css files referenced in your application and put it into a string

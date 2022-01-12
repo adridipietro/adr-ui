@@ -1,2 +1,4 @@
-console.log("test")
+import "./test.css"
 
+
+console.log("test")

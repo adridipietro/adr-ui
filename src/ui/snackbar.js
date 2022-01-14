@@ -13,6 +13,9 @@ class Snackbar {
     show(message){
         this.snackbar.textContent = message
         this.snackbar.classList.add('active')
+        setTimeout(() => {
+            this.snackbar.classList.remove('active') 
+        }, 4000)
     }
 }
 

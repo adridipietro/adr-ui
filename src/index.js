@@ -31,5 +31,12 @@ const snackbar = new Snackbar()
 // initialize new instance of Snackbar
 snackbar.init()
 
+// create ref to button
+// append event listener to button to call show() on our instance of snackbar
+const button = document.querySelector('button')
+button.addEventListener("click", () => {
+    snackbar.show("hi there! welcome!")
+})
+
 
 

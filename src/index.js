@@ -4,6 +4,7 @@
 import Tooltip from './ui/tooltip'
 import Dropdown from './ui/dropdown'
 import Tabs from './ui/tabs'
+import Snackbar from './ui/snackbar'
 
 
 // create a tooltip by grabbing the DOM element by class name
@@ -23,6 +24,12 @@ dropdown.init()
 const tabs = new Tabs(document.querySelector('.container'))
 // initialize new instances of tabs
 tabs.init()
+
+
+// create snackbar
+const snackbar = new Snackbar()
+// initialize new instance of Snackbar
+snackbar.init()
 
 
 

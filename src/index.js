@@ -3,6 +3,7 @@
 
 import Tooltip from './ui/tooltip'
 import Dropdown from './ui/dropdown'
+import Tabs from './ui/tabs'
 
 
 // create a tooltip by grabbing the DOM element by class name
@@ -16,6 +17,12 @@ tooltip.init()
 const dropdown = new Dropdown(document.querySelector('.dropdown'))
 // initialize new instance of dropdown
 dropdown.init()
+
+
+// create tabs
+const tabs = new Tabs(document.querySelector('.container'))
+// initialize new instances of tabs
+tabs.init()
 
 
 

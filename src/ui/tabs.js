@@ -1,9 +1,9 @@
-import './tabs.css'
+import './styles/tabs.css'
 
 class Tabs {
     constructor(container){
         this.container = container
-        this.tabs = container.querySelector(".trigger")
+        this.tabs = container.querySelectorAll(".trigger")
     }
 
     init(){
